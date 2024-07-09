@@ -89,13 +89,13 @@ where EMP_RATING between 2 and 4;
 select concat(FIRST_NAME,' ',LAST_NAME)as name from emp_record_table
 where DEPT = 'Finance';
 
-![4](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/0b89a6b1-fc81-46eb-8f88-e371ac5e8628)
+![5](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/27562ba9-1c7e-4d88-92bf-9b558b83e0c9)
 
 6.	Write a query to list only those employees who have someone reporting to them. Also, show the number of reporters (including the President).
 
 select count(MANAGER_ID) from emp_record_table;
 
-![5](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/93926a07-557b-4372-9396-575c0ac1b0bc)
+![6](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/30a9da76-4ce6-4479-8a9d-8a8c8973e0a3)
 
 7.	Write a query to list down all the employees from the healthcare and finance departments using union. Take data from the employee record table.
 
@@ -108,7 +108,7 @@ UNION
 select EMP_ID,FIRST_NAME,LAST_NAME, DEPT from emp_record_table
 where DEPT = 'FINANCE';
 
-![6](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/a0a4deed-94de-4a53-bfc1-0bb19c3c79c6)
+![8](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/2edea833-1b63-403e-aa7a-c37848f9f4a4)
 
 8.	Write a query to list down employee details such as EMP_ID, FIRST_NAME, LAST_NAME, ROLE, DEPARTMENT, and EMP_RATING grouped by dept. Also include the respective employee rating along with the max emp rating for the department.
 
@@ -117,16 +117,16 @@ max(EMP_RATING) over (partition by DEPT) as max_emp_rating
 from emp_record_table
 order by DEPT;
 
-![7](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/a3f0a36b-0ba9-4b72-b67a-1bb1b63284db)
+![9](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/454448b9-5a66-42f7-a8f6-4be195edf14b)
 
 9.	Write a query to calculate the minimum and the maximum salary of the employees in each role. Take data from the employee record table.
 
 select DEPT, SALARY from emp_record_table;
 
+![9](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/3e436cc2-47d5-4c83-8206-1ea79c829ef0)
+
 select ROLE, min(SALARY) as min_salary, max(SALARY) as max_salary from emp_record_table
 group by ROLE;
-
-![8](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/5fa559ab-fa51-4040-b03d-3dedc7b4884c)
 
 10.	Write a query to assign ranks to each employee based on their experience. Take data from the employee record table.
 
@@ -134,7 +134,7 @@ select EMP_ID, FIRST_NAME, LAST_NAME, ROLE, DEPT, EXP,
 rank() over (order by EXP desc) as Experience_Rank
 from emp_record_table;
 
-![9](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/bf79da29-1909-43ae-b13b-2b6ed12e7ed1)
+![10](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/4dc92c18-7857-4012-abcb-2684bdd884bb)
 
 11.	Write a query to create a view that displays employees in various countries whose salary is more than six thousand. Take data from the employee record table.
 
@@ -142,14 +142,14 @@ create view high_earners as
 select EMP_ID, FIRST_NAME, LAST_NAME, ROLE, DEPT, COUNTRY, SALARY from emp_record_table
 where SALARY > 6000;
 
-![10](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/90f7c146-842b-41d9-aa49-29a22458bb00)
+![11](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/966e6d73-8b9f-4538-b26c-94f3d181eb1e)
 
 12.	Write a nested query to find employees with experience of more than ten years. Take data from the employee record table.
 
 select EMP_ID,FIRST_NAME,LAST_NAME,ROLE,DEPT,EXP from emp_record_table
 where EXP > (select 10);
 
-![11](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/e989bbe3-a65c-4cf3-8b0d-e95dc67131dc)
+![12](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/ae64a43b-8564-45d5-be5f-438b7948d39c)
 
 13. Write a query to create a stored procedure to retrieve the details of the employees whose experience is more than three years. Take data from the employee record table.
 
