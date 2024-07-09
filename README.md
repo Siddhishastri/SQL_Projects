@@ -50,5 +50,6 @@ Data_science_team: It contains information about all the employees in the Data S
 CREATE SCHEMA EMPLOYEES;
 
 2.	Create an ER diagram for the given employee database.
-   ![1](https://github.com/SharifAthar/Netflix-Shows-and-Movies-SQL/assets/172502412/895c751c-c6a6-430d-b387-40faf37d1665)
+
+
 
