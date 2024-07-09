@@ -44,3 +44,11 @@ Data_science_team: It contains information about all the employees in the Data S
 ●	EXP – Years of experience the employee has
 ●	COUNTRY – Country in which the employee is presently living
 ●	CONTINENT – Continent in which the country is
+
+1.	Create a database named employee, then import data_science_team.csv proj_table.csv and emp_record_table.csv into the employee database from the given resources.
+
+CREATE SCHEMA EMPLOYEES;
+
+2.	Create an ER diagram for the given employee database.
+   ![1](https://github.com/SharifAthar/Netflix-Shows-and-Movies-SQL/assets/172502412/895c751c-c6a6-430d-b387-40faf37d1665)
+
