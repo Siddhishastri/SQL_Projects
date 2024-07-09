@@ -51,5 +51,55 @@ CREATE SCHEMA EMPLOYEES;
 
 2.	Create an ER diagram for the given employee database.
 
+![1](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/4b5edd71-e47a-461b-b9fe-fbe57447acc1)
+
+3.  Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT from the employee record table, and make a list of employees and details of their department.
+
+select EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPT from emp_record_table;
+
+![2](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/81d87f65-d210-4e33-ba74-6c94f643cf12)
+
+4.	Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPARTMENT, and EMP_RATING if the EMP_RATING is: 
+●	less than two
+●	greater than four 
+●	between two and four
+
+![3](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/7395e16a-3288-4c1f-93fd-f761953bba4f)
+
+5.	Write a query to concatenate the FIRST_NAME and the LAST_NAME of employees in the Finance department from the employee table and then give the resultant column alias as NAME.
+
+![4](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/0b89a6b1-fc81-46eb-8f88-e371ac5e8628)
+
+6.	Write a query to list only those employees who have someone reporting to them. Also, show the number of reporters (including the President).
+
+![5](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/93926a07-557b-4372-9396-575c0ac1b0bc)
+
+7.	Write a query to list down all the employees from the healthcare and finance departments using union. Take data from the employee record table.
+
+![6](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/a0a4deed-94de-4a53-bfc1-0bb19c3c79c6)
+
+8.	Write a query to list down employee details such as EMP_ID, FIRST_NAME, LAST_NAME, ROLE, DEPARTMENT, and EMP_RATING grouped by dept. Also include the respective employee rating along with the max emp rating for the department.
+
+![7](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/a3f0a36b-0ba9-4b72-b67a-1bb1b63284db)
+
+9.	Write a query to calculate the minimum and the maximum salary of the employees in each role. Take data from the employee record table.
+
+![8](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/5fa559ab-fa51-4040-b03d-3dedc7b4884c)
+
+10.	Write a query to assign ranks to each employee based on their experience. Take data from the employee record table.
+
+![9](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/bf79da29-1909-43ae-b13b-2b6ed12e7ed1)
+
+11.	Write a query to create a view that displays employees in various countries whose salary is more than six thousand. Take data from the employee record table.
+
+![10](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/90f7c146-842b-41d9-aa49-29a22458bb00)
+
+12.	Write a nested query to find employees with experience of more than ten years. Take data from the employee record table.
+
+![11](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/e989bbe3-a65c-4cf3-8b0d-e95dc67131dc)
+
+13. Write a query to create a stored procedure to retrieve the details of the employees whose experience is more than three years. Take data from the employee record table.
+
+![12](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/c5b54885-beca-467c-9453-dd14b1dbee0b)
 
 
