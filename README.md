@@ -52,6 +52,7 @@ CREATE SCHEMA EMPLOYEES;
 2.	Create an ER diagram for the given employee database.
 
 ![1](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/664f9bc0-7879-4e5d-8535-5195ee7675a4)
+
 3.  Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT from the employee record table, and make a list of employees and details of their department.
 
 select EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPT from emp_record_table;
