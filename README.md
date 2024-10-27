@@ -1,15 +1,31 @@
-Project Name: 
-ScienceQtech Employee Performance Mapping 
+# ScienceQtech Employee Performance Mapping
 
-Problem scenario: 
-ScienceQtech is a startup that works in the Data Science field. ScienceQtech has worked on fraud detection, market basket, self-driving cars, supply chain, algorithmic early detection of lung cancer, customer sentiment, and the drug discovery field. With the annual appraisal cycle around the corner, the HR department has asked you (Junior Database Administrator) to generate reports on employee details, their performance, and on the project that the employees have undertaken, to analyze the employee database and extract specific data based on different requirements.
-
-Objective: 
-To facilitate a better understanding, managers have provided ratings for each employee which will help the HR department to finalize the employee performance mapping. As a DBA, you should find the maximum salary of the employees and ensure that all jobs are meeting the organization's profile standard. You also need to calculate bonuses to find extra cost for expenses. This will raise the overall performance of the organization by ensuring that all required employees receive training.
-
+## Project Overview
+ScienceQtech is a data science-focused startup, working on projects like fraud detection, supply chain optimization, and drug discovery. With annual performance appraisals approaching, the HR team requested an employee performance mapping system. This project focuses on generating reports that detail employee information, performance ratings, project involvements, and salary breakdowns. These insights aim to help HR evaluate employee contributions and optimize resources.
 Dataset description:
 
-emp_record_table: It contains the information of all the employees.
+## Objective
+This project aims to:
++ Map employee performance based on manager-provided ratings.
++ Identify top salaries across roles.
++ Ensure roles align with organizational standards.
++ Calculate bonus allocations to support future expense planning.
++ Recommend training to help employees reach their performance potential.
+
+## Key Features
+1. Data Analysis: Analyzes the employee database to provide insights on salary, performance, and project involvement.
+2. Performance Mapping: Uses manager ratings to categorize employee performance levels.
+3. Salary Insights: Identifies the maximum salary by job role and department.
+4. Bonus Calculations: Determines bonus allocations to estimate additional organizational expenses.
+5. Training Recommendations: Flags employees who may benefit from training to improve performance.
+
+## Data Processing Steps
+1. Data Loading and Cleaning: Imported and cleaned the employee dataset to ensure data quality.
+2. Data Analysis: Calculated performance metrics and salary insights.
+3. Bonus Calculation: Used performance ratings to determine appropriate bonus levels for employees.
+4. Visualization: Created charts to display performance distribution, salary ranges, and bonus allocations.
+
+### emp_record_table: It contains the information of all the employees.
 ●	EMP_ID – ID of the employee
 ●	FIRST_NAME – First name of the employee
 ●	LAST_NAME – Last name of the employee
@@ -24,8 +40,7 @@ emp_record_table: It contains the information of all the employees.
 ●	MANAGER_ID – The manager under which the employee is assigned 
 ●	PROJ_ID – The project on which the employee is working or has worked on
 
-
-Proj_table: It contains information about the projects.
+### Proj_table: It contains information about the projects.
 ●	PROJECT_ID – ID for the project
 ●	PROJ_Name – Name of the project
 ●	DOMAIN – Field of the project
@@ -34,7 +49,7 @@ Proj_table: It contains information about the projects.
 ●	DEV_QTR – Quarter in which the project was scheduled
 ●	STATUS – Status of the project currently
 
-Data_science_team: It contains information about all the employees in the Data Science team.
+### Data_science_team: It contains information about all the employees in the Data Science team.
 ●	EMP_ID – ID of the employee
 ●	FIRST_NAME – First name of the employee
 ●	LAST_NAME – Last name of the employee
@@ -60,11 +75,11 @@ select EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPT from emp_record_table;
 ![2](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/81d87f65-d210-4e33-ba74-6c94f643cf12)
 
 4.	Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPARTMENT, and EMP_RATING if the EMP_RATING is: 
-●	less than two
-●	greater than four 
-●	between two and four
++ less than two
++ greater than four 
++ between two and four
 
-# Combining All Queries with UNION
+#### Combining All Queries with UNION
 
 select EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPT,EMP_RATING
 from emp_record_table
