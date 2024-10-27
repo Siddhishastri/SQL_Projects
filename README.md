@@ -65,8 +65,7 @@ This project aims to:
 CREATE SCHEMA EMPLOYEES;
 
 2.	Create an ER diagram for the given employee database.
-
-![1](https://github.com/Siddhishastri/SQL_Projects/assets/172502412/664f9bc0-7879-4e5d-8535-5195ee7675a4)
+![1](https://github.com/user-attachments/assets/86db86fc-9e39-464f-91de-a8a44e00c14e)
 
 3.  Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT from the employee record table, and make a list of employees and details of their department.
 
