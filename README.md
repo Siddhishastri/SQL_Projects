@@ -1,6 +1,6 @@
 # SQL Projects:
 
-1. [Music Store Analysis](https://github.com/Siddhishastri/SQL_Projects/tree/main/Music_Store_Analysis)
+1. [Company Layoffs Analysis](https://github.com/Siddhishastri/SQL_Projects/tree/main/Company_Layoffs)
 2. [ScienceQtech Employee Performance Mapping](https://github.com/Siddhishastri/SQL_Projects/tree/main/ScienceQtech%20Employee%20Performance%20Mapping)
 
 
