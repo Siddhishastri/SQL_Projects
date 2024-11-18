@@ -4,10 +4,10 @@
 This repository contains the data cleaning and exploratory data analysis (EDA) processes performed on a dataset of company layoffs. The project aims to provide insights into trends and patterns in layoffs across various industries, locations, and company stages.
 
 ## Table of Contents
-1. [Overview](https://github.com/Siddhishastri/Python_Projects/tree/main/Zomato_Data_Analysis#project-overview)
-2. Dataset Description
-3. Goals and Objectives
-4. SQL Workflow
+1. [Overview](https://github.com/Siddhishastri/SQL_Projects/blob/main/Company_Layoffs/README.md#overview)
+2. [Dataset Description](https://github.com/Siddhishastri/SQL_Projects/blob/main/Company_Layoffs/README.md#dataset-description)
+3. [Goals and Objectives](https://github.com/Siddhishastri/SQL_Projects/blob/main/Company_Layoffs/README.md#goals-and-objectives)
+4. [SQL Workflow](https://github.com/Siddhishastri/SQL_Projects/blob/main/Company_Layoffs/README.md#sql-workflow)
 
 ### Overview
 
