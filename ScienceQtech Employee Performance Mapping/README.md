@@ -2,7 +2,6 @@
 
 ## Project Overview
 ScienceQtech is a data science-focused startup, working on projects like fraud detection, supply chain optimization, and drug discovery. With annual performance appraisals approaching, the HR team requested an employee performance mapping system. This project focuses on generating reports that detail employee information, performance ratings, project involvements, and salary breakdowns. These insights aim to help HR evaluate employee contributions and optimize resources.
-Dataset description:
 
 ## Objective
 This project aims to:
