@@ -21,11 +21,12 @@ An end-to-end data analytics project focusing on retail orders and sales trends 
 
 ## Insights and Outcomes
 
-    * Identified actionable insights to optimize sales strategies and improve business decisions.
-    * Highlighted top-performing product categories and regions for better resource allocation.
-    * Provided recommendations for customer segmentation to improve targeting and retention.
+* Identified actionable insights to optimize sales strategies and improve business decisions.
+* Highlighted top-performing product categories and regions for better resource allocation.
+* Provided recommendations for customer segmentation to improve targeting and retention.
+
 ## Technologies Used
 
-    * Python: Pandas, SQLAlchemy, and Kaggle API.
-    * SQL Server: Advanced SQL querying and data analysis.
-    * Kaggle: Dataset source.
++ Python: Pandas, SQLAlchemy, and Kaggle API.
++ SQL Server: Advanced SQL querying and data analysis.
++ Kaggle: Dataset source.
